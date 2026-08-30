@@ -505,17 +505,4 @@ kubectl get pods --all-namespaces
 
 All three nodes should eventually appear in the expected state. Kubernetes installation may take time while the services start and the pod network becomes ready.
 
-## 10. Recommended Learning Sequence
 
-Follow this order while practicing:
-
-1. Connect to one target server using normal SSH.
-2. Configure SSH keys and test passwordless access.
-3. Add the target to `inventory.ini`.
-4. Run the Ansible ping module.
-5. Practice ad hoc commands with safe modules such as `ping`, `file`, and `setup`.
-6. Create a small playbook to install and start a package or service.
-7. Practice groups and `--limit` with one server before using multiple servers.
-8. Add variables, templates, and handlers.
-9. Convert the playbook into a reusable role.
-10. Use Terraform to create the three EC2 instances and Ansible to configure the Kubernetes cluster.
