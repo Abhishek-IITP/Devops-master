@@ -854,19 +854,4 @@ Examples:
 
 ---
 
-## Quick Interview Checklist
 
-Before Ansible interview, ensure you can:
-
-- [ ] Define Ansible clearly
-- [ ] Explain agentless vs agent-based
-- [ ] Compare with Puppet/Chef
-- [ ] Demonstrate ad-hoc commands
-- [ ] Write a simple playbook
-- [ ] Explain roles and when to use them
-- [ ] Discuss Ansible Galaxy
-- [ ] Handle error scenarios
-- [ ] Explain limitations
-- [ ] Discuss best practices
-
----
